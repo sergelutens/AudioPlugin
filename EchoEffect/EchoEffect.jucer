@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="roNzCT" name="EchoEffect" projectType="audioplug" useAppConfig="0"
+              displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="pwT1VL" name="EchoEffect">
+    <GROUP id="{2DA22F97-D82B-EADE-C9DE-E807DE72E4B0}" name="Source">
+      <FILE id="MfgiwS" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="VBgMG4" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="ciTm1i" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="CHqjLs" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="dhYwPW" name="Echo.cpp" compile="1" resource="0" file="Source/Echo.cpp"/>
+      <FILE id="eOReQA" name="Echo.h" compile="0" resource="0" file="Source/Echo.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="EchoEffect"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="EchoEffect"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:/Users/gyxox/Desktop/JUCE605/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/Users/gyxox/Desktop/JUCE605/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/Users/gyxox/Desktop/JUCE605/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:/Users/gyxox/Desktop/JUCE605/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/Users/gyxox/Desktop/JUCE605/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:/Users/gyxox/Desktop/JUCE605/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/Users/gyxox/Desktop/JUCE605/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/Users/gyxox/Desktop/JUCE605/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/Users/gyxox/Desktop/JUCE605/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/Users/gyxox/Desktop/JUCE605/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/Users/gyxox/Desktop/JUCE605/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/Users/gyxox/Desktop/JUCE605/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
