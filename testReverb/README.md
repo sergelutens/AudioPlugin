@@ -1,2 +1,3 @@
-# AlgoReverb
-Repository for the UWL Audio Programming Society Workshop
+# testReverb
+
+APF를 사용한 리버브 플러그인
